@@ -4,10 +4,11 @@ dane <- read.csv("C:/Users/marta/Downloads/archive (1)/turnover.csv", dec = '.')
 View(dane)
 
 
+
 ### wymiary zbioru danych
 dim(dane)
 
-###liczba rekordów w klasach zmiennej objaœnianej
+###liczba rekordÃ³w w klasach zmiennej objaÅ“nianej
 table(dane$event)
 
 ###ile 0 ile 1 (w %)

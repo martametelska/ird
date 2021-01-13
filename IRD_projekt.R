@@ -55,7 +55,6 @@ library(InformationValue)
 
 #sila predykcji
 
-IV(dane$stag, dane$event, valueOfGood = 1)
 IV(dane$traffic, dane$event, valueOfGood = 1)
 IV(dane$profession, dane$event, valueOfGood = 1)
 IV(dane$industry, dane$event, valueOfGood = 1)
